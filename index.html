@@ -3,54 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+        <style>
+            body{
+                font-family: 'Roboto', sans-serif;
+                color: #212121; 
+            }   
+        </style>
 </head>
 <body>
 <header>
-    <p>WebStudio</p>
-    <nav>
-        <ul>
-            <li><a href="#">Agencja</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
+    <p class="logo-web">Web<span class="logo-studio-black">Studio</span></p>
+    <nav class="menu-nav">
+        <ul class="submenu-nav">
+            <li><a class="links-style" href="#">Agencja</a></li>
+            <li><a class="links-style" href="#">Portfolio</a></li>
+            <li><a class="links-style" href="#">Kontakt</a></li>
         </ul>
     </nav>
-    <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+    <ul class="menu-link">
+        <li><a class="links-style" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li><a class="links-style" href="tel:+48111111111">+48 111 111 111</a></li>
     </ul>
 </header>
     <main>
-       <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+       <div class="heading-box">
+        <h1 class="heading-main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="button-main" type="button">Zamów usługe</button>
        </div>
         <section>
             <ul>
                 <li>
-                <h3>LOREM IPSUM</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                    <h3 class="list-heading">LOREM IPSUM</h3>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                    <h3 class="list-heading">LOREM IPSUM</h3>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                    <h3 class="list-heading">LOREM IPSUM</h3>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada</p>
                 </li>
                 <li>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                    <h3 class="list-heading">LOREM IPSUM</h3>
+                    <p class="list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
                         malesuada</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Czym się zajmujemy</h2>
+            <h2 class="heading-section">Czym się zajmujemy</h2>
             <ul>
                 <li><img src="./images/What-we-do/What-we-do1.jpg" alt="Pisanie kodu" width="370" height="294"></li>
                 <li><img src="./images/What-we-do/What-we-do2.jpg" alt="laptop i smartfon" width="370" height="294"></li>
@@ -58,38 +69,38 @@
             </ul>
         </section>
         <section>
-            <h2>Nasz zespół</h2>
+            <h2 class="heading-section">Nasz zespół</h2>
             <ul>
                 <li>
                     <img src="./images/our-team/our-team1.jpg" alt="szatyn w okularach" width="270" height="260">
-                        <h3>John Doe</h3>
+                        <h3 class="list-worker">John Doe</h3>
                         <span>Product Designer</span>
                 </li>
                 <li>
                     <img src="./images/our-team/our-team2.jpg" alt="blondynka w okularach" width="270" height="260">
-                        <h3>John Doe</h3>
-                        <span>Frontend Developer</span>
+                        <h3 class="list-worker">John Doe</h3>
+                        <span class="job-title">Frontend Developer</span>
                 </li>
                 <li>
                     <img src="./images/our-team/our-team3.jpg" alt="szatyn bez okularów" width="270" height="260">
-                        <h3>John Doe</h3>
-                        <span>Marketing</span>
+                        <h3 class="list-worker">John Doe</h3>
+                        <span class="job-title">Marketing</span>
                 </li>
                 <li>
                     <img src="./images/our-team/our-team4.jpg" alt="brunet w okularach" width="270" height="260">
-                        <h3>John Doe</h3>
-                        <span>UI Designer</span>
+                        <h3 class="list-worker">John Doe</h3>
+                        <span class="job-title">UI Designer</span>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <p>WebStudio</p>
+    <footer class="footer-box">
+        <p class="logo-web">Web<span class="logo-studio-white">Studio</span></p>
         <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/VbSn34Kh2Uzp6g4f7">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <ul class="link-address">
+                <li><a class="links-style" href="https://goo.gl/maps/VbSn34Kh2Uzp6g4f7">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+                <li><a class="links-style" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="links-style" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </address>
     </footer>

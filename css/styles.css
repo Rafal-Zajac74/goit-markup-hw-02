@@ -1,4 +1,8 @@
-:root{
+body{
+       font-family: 'Roboto', sans-serif;
+       color: var(--body-text-color);
+}
+   :root{
     --main-white-color: #FFFFFF;
     --blue-color: #2196f3;
     --black-color: #000000;
@@ -147,12 +151,20 @@ background-color: var(--background-portfolio-color);
 .portfolio-box{
 background: var(--background-portfolio-color);
 }
-.links-style{
+.links-header{
+text-decoration: none;
+color: var(--body-text-color);
+}
+.links-footer{
+color: var(--main-white-color);
 text-decoration: none;
 }
-.links-style:hover,
-.links-style:focus,
-.links-style:active,
+.links-header:hover,
+.links-header:focus,
+.links-header:active,
+.links-footer:focus,
+.links-footer:hover,
+.links-footer:active,
 .list-battons:hover,
 .list-battons:focus,
 .list-battons:active{
